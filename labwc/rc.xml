@@ -55,6 +55,13 @@
     <keybind key="W-S-f">
       <action name="Execute" command="firefox" />
     </keybind>
+    <keybind key="W-S-l">
+        <action name="Execute" command="activate-lock" />
+    </keybind>>
+    <keybind key="W-A-l">
+        <action name="Execute" command="activate-lock" />
+        <action name="Execute" command="suspend-laptop" />
+    </keybind>
     <keybind key="A-Tab">
       <action name="None" />
     </keybind>
@@ -65,9 +72,7 @@
       Remove a previously defined keybind
       A shorter alternative is <keybind key="W-F4" />
     -->
-    <keybind key="W-F4">
-      <action name="None" />
-    </keybind>
+    <keybind key="W-F4" />
 
     <!-- Add launcher keybind !-->
 
@@ -87,6 +92,9 @@
       <action name="ToggleDecorations" />
     </keybind>
     <keybind key="W-f">
+      <action name="ToggleMaximize" />
+    </keybind>
+    <keybind key="W-t">
       <action name="ToggleFullscreen" />
     </keybind>
     <keybind key="W-C-A-q">

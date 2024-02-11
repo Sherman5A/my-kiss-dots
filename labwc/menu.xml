@@ -38,30 +38,17 @@
 </menu>
 
 <menu id="root-menu">
+  <item label="Terminal">
+    <action name="Execute" command="footclient" />
+  </item>
   <item label="Firefox">
     <action name="Execute" command="firefox" />
-  </item>
-  <item label="Terminal">
-    <action name="Execute" command="foot" />
   </item>
   <!--
   <item label="File Manager">
     <action name="None">
   </item>
   !-->
-</menu>
-
-
-<menu id="workspace-menu" label="Manage Workspaces">
-  <item label="Workspace 1">
-    <action name="GoToDesktop" to="1" />
-  </item>
-  <item label="Workspace 2">
-    <action name="GoToDesktop" to="2" />
-  </item>
-  <item label="Workspace 3">
-    <action name="GoToDesktop" to="3" />
-  </item>
 </menu>
 
 <menu id="systemMenu" label="Control Menu">
